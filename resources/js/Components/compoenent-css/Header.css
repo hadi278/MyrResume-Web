@@ -1,0 +1,33 @@
+header{
+    background: #1B262C;
+}
+
+.image__white img{
+    border-radius: 12rem;
+    border: 10px solid var(--color-primary);
+}
+
+.icon__container {
+    display: grid;
+    left: 0;
+    gap: 0.8rem;
+
+}
+
+.icon__container::after {
+    content: " ";
+    width: 1px;
+    height: 5rem;
+    background: var(--color-primary);
+}
+
+.my_portfolio{
+    transform: rotate(90deg);
+}
+
+.button__download:hover {
+    border: 3px solid var(--color-primary);
+    /*border-color: var(--color-primary);*/
+
+}
+
